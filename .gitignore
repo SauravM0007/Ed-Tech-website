@@ -21,7 +21,6 @@ server/.env.local
 server/.env.*.local
 
 # Build output
-client/build/
 client/dist/
 server/dist/
 

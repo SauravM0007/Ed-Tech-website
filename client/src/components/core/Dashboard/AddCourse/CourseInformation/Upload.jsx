@@ -25,7 +25,7 @@ const Upload = ({ name, label, register, errors, setValue }) => {
     if (editCourse) {
       setimage(course?.thumbnail);
     }
-  }, [editCourse, course?.thumbnail, name, setValue]);
+  }, []);
 
   return (
     <div>

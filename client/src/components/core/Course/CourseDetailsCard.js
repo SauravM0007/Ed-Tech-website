@@ -15,7 +15,11 @@ function CourseDetailsCard({ course, setConfirmationModal, handleBuyCourse }) {
   const navigate = useNavigate();
   const dispatch = useDispatch();
 
-  const { thumbnail: ThumbnailImage, price: CurrentPrice } = course;
+  const {
+    thumbnail: ThumbnailImage,
+    price: CurrentPrice,
+    _id: courseId,
+  } = course;
 
   const handleShare = () => {
     copy(window.location.href);
